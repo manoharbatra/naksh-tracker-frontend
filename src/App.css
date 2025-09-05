@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  overflow: hidden; /* so scrollbars are inside panels */
+}

@@ -1,0 +1,46 @@
+.left-panel {
+    width: 225px;
+    flex-shrink: 0;
+    background: var(--mui-palette-background-paper);
+    padding: 16px;
+
+    position: sticky;
+    /* top: 64px; same as header height */
+    height: calc(100vh - 64px); /* full height minus header */
+    overflow-y: auto;
+
+    .title-box{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .option-box {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        cursor: pointer;
+        background: var(--mui-palette-background-paper);
+        transition: background-color 0.2s ease;
+    }
+
+    .option-box:hover {
+        background-color: #f5f5f5;
+        color: black;
+    }
+
+    .option-box input {
+        accent-color: #1976d2; /* blue radio button */
+    }
+}
