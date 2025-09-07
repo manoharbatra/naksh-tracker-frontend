@@ -11,7 +11,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "3rd prize",
-        link: "https://drive.google.com/file/d/1Smj2zRrUJetfyMem5pXuA9SUAedydV_w/view?usp=sharing"
+        link: ""
       },
       {
         id: "0-2",
@@ -22,7 +22,7 @@
         city: "Noida",
         state: "Uttar Pradesh",
         outcome: "3rd prize",
-        link: "https://drive.google.com/file/d/14zhCJlJKxGzFQGgy-Fpv5dEk_ED1o2fE/view?usp=sharing"
+        link: ""
       },
     ],
     // Nursery
@@ -36,7 +36,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "1st prize",
-        link: "https://drive.google.com/file/d/17yZsLootO0MT0Xaac7b5rzdWra4iDeqH/view?usp=sharing"
+        link: ""
       },
       {
         id: "1-2",
@@ -47,7 +47,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "2nd prize",
-        link: "https://drive.google.com/file/d/1f4lSEOBXaNP-oRuvplRXtjzIt8orkaEt/view?usp=sharing"
+        link: ""
       },
       {
         id: "1-3",
@@ -58,7 +58,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "1st prize",
-        link: "https://drive.google.com/file/d/1FzQG8bevOE8p0F1YMcnwSrT74L9zJ4Z_/view?usp=sharing"
+        link: ""
       },
       {
         id: "1-4",
@@ -69,7 +69,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "1st prize",
-        link: "https://drive.google.com/file/d/1FgPOwUHDGCagbwMhAsBpc_z-t5A9ogXp/view?usp=sharing"
+        link: ""
       },
       {
         id: "1-5",
@@ -80,7 +80,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "1st prize",
-        link: "https://drive.google.com/file/d/1Co2_L7s9VN1Vr9dQjsZaHhCgS4fDHKu4/view?usp=sharing"
+        link: ""
       }
     ],
     // LKG
@@ -94,7 +94,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "2nd prize",
-        link: "https://drive.google.com/file/d/1vna1RD37XWQIVAmsSBY9eQqJXD9LBtJ-/view?usp=drive_link"
+        link: ""
       },
       {
         id: "2-2",
@@ -105,7 +105,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "1st prize",
-        link: "https://drive.google.com/file/d/1s6U5-_Y7sOLhskfMkfiaG9QO0rI6cQGO/view?usp=sharing"
+        link: ""
       },
       {
         id: "2-3",
@@ -116,7 +116,7 @@
         city: "Ghaziabad",
         state: "Uttar Pradesh",
         outcome: "2nd prize",
-        link: "https://drive.google.com/file/d/1IO0anvaqKUVt2_wwkni2PT7GESAX_TEJ/view?usp=sharing"
+        link: ""
       }
     ]
   };
