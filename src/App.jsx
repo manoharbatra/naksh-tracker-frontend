@@ -8,6 +8,7 @@ import { ThemeProvider, createTheme, CssBaseline } from "@mui/material"
 import { getClassData } from "./api/classDataApi"
 import { mapApiDataToRows } from "./utils/mapper"
 import { rowsData } from "./dataTableRowsdata"
+import "./i18n";  // <-- Import this once at app start
 import "./App.css"
 
 const App = () => {
@@ -32,6 +33,8 @@ const App = () => {
 
     // Call API only once on mount
     useEffect(() => {
+        console.log("Browser language:", navigator.language);
+        console.log("Preferred languages:", navigator.languages);
         fetchRows()
     }, [])
 

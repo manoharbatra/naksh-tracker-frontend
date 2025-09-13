@@ -4,8 +4,10 @@ import { Box, Typography, Container, Grid, Card, CardContent } from "@mui/materi
 import { School, Person, Insights, Cloud } from "@mui/icons-material";
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
+import { useTranslation } from "react-i18next";
 
 const LandingPage = ({ setUser }) => {
+  const { t, i18n } = useTranslation();
   const handleLogin = (credentialResponse) => {
     const decoded = jwtDecode(credentialResponse.credential);
     setUser(decoded);
@@ -25,7 +27,7 @@ const LandingPage = ({ setUser }) => {
       >
         <Container maxWidth="md">
           <Typography variant="h2" fontWeight="bold" gutterBottom>
-            Welcome to Digital Tracker
+            {t("welcome_to_digital_tracker")}
           </Typography>
           <Typography variant="h5" sx={{ mb: 4 }}>
             Track your <strong>child journey</strong> in one place.
